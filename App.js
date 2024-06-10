@@ -5,7 +5,7 @@ import Task from './components/Task';
 
 export default function App() {
   const [task, setTask] = useState();
-  const [taskItems, setTaskItems] = useState([]);
+  const [taskItems, setTaskItems] = useState(['End Hilter', 'Delete Automic Bombs from Existence','Recolonize Africa']);
 
   const handleAddTask = () =>{
     Keyboard.dismiss();
@@ -36,8 +36,6 @@ export default function App() {
               )
             })
           }
-          {/* <Task text={"Task 1"}/>
-          <Task text={"Task 2"}/> */}
         </View>
         </View>
 
